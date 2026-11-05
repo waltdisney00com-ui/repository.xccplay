@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="plugin.video.xccplayteste" version="1.0.0" name="XCC Play!" provider-name="Carl Henriyx">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="script.module.requests"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="main.py">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="pt">Assista aos seus filmes e séries favoritos direto na sua TV, ou TV Box!</summary>
+            <description lang="pt">GRÁTIS!</description>
+            <platform>all</platform>
+            <assets>
+                <icon>Picsart_26-11-05_14-20-15-337.jpg</icon>
+                <fanart>Picsart_26-11-05_14-20-15-337.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+</addons>
